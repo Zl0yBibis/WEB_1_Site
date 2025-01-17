@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(images/backgorund.jpg);
+    background-size: cover;
+}
+
+.top {
+    background-color: purple;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    justify-content: center;
+    font-family: "Play", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px;
+    color: white;
+}
+
+.contact {
+    justify-content: right;
+    font-family: "Play", serif;
+    font-weight: 700;
+    font-size: 30px;
+    font-style: normal;
+    color: white;
+}
+
+.text {
+    padding: 5px;
+    font-family: "Play", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: white;
+}
+
+.text_head {
+    font-family: "Play", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    color: white;
+    padding-left: 10px;
+}
+
+    .text_head span {
+        display: inline;
+        background-color: rgba(128,0,128, 0.5);
+        box-shadow: -10px 0 0 rgba(128,0,128, 0.5), 10px 0 0 rgba(128,0,128, 0.5);
+        padding: 0 10px 0 0;
+        color: white;
+        font-size: 30px;
+    }
+
+ul {
+    justify-content: center;
+    align-items: center;
+    background: rgba(128,0,128, 0.5);
+    margin: 5px 300px;
+    list-style-type: none;
+}
+
+li {
+    text-align: center;
+}
+
+button {
+    justify-content: right;
+    font-family: "Play", serif;
+    font-weight: 700;
+    font-size: 40px;
+    font-style: normal;
+    color: purple;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

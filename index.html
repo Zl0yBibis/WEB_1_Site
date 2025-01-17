@@ -3,17 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Музыкальный плеер</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Breakcore</title>
 </head>
+
 <body>
-    <header>
-        <h1>Тест</h1>
-    </header>
+
+    <top class="top">
+        <name class="title">Что такое Breakcore?</name>
+        <!--contact class="contact"><a href="https://github.com/Zl0yBibis">C8NT4CT VS</a></contact-->
+        <button onclick="goToContacts()">C8NT4CT VS</button>
+
+        <script>
+    function goToContacts() {
+        window.location.href = "https://github.com/Zl0yBibis"; // Замените на ваш URL с контактами
+    }
+        </script>
+    </top>
+
     <main>
+        <p class="text">Breakcore — это экспериментальный музыкальный жанр, который сочетает в себе элементы электроники, панка и хардкора. Он характеризуется сложными ритмами, агрессивными сэмплами и быстрым темпом.</p>
+
+        <h2 class="text_head">
+            <span>История жанра</span>
+        </h2>
+        <p class="text">Жанр появился в 1990-х годах и достиг своего пика в 2000-х, однако в 2010-х, c приходом новых исполнителей, произошло его переосмысление. Breakcore часто ассоциируется с андеграундной культурой и DIY (сделай сам) подходом в создании музыки. Одной из особенностей жанра является обильное использование сэмплов из других произведений. Барабанная сбивка Amen break, написанная Грегори Коулмэном, является самым распространённым семплом в Breakcore.</p>
+
+        <h2 class="text_head">
+            <span>Основные характеристики</span>
+        </h2>
+        <ul>
+            <li class="text">Сложные ритмические структуры</li>
+            <li class="text">Частое использование сэмплов из различных источников</li>
+            <li class="text">Высокая скорость (обычно 160-200 BPM)</li>
+            <li class="text">Влияние различных музыкальных стилей, включая драм-н-бейс, индастриал и хардкор</li>
+        </ul>
+
+        <h2 class="text_head">
+            <span>Известные исполнители первой волны</span>
+        </h2>
+        <ul>
+            <li class="text">Venetian Snares</li>
+            <li class="text">AfroDJMac</li>
+            <li class="text">DJ Donna Summer</li>
+            <li class="text">Squarepusher</li>
+        </ul>
+
+        <h3 class="text_head">
+            <span>Известные исполнители второй волны</span>
+        </h3>
+        <ul>
+            <li class="text">Sewerslvt / Cynthoni </li>
+            <li class="text">Machine Girl</li>
+            <li class="text">Rory in early 20s</li>
+            <li class="text">usedcvnt</li>
+        </ul>
+
+        <h4 class="text_head">
+            <span>Попробуте Breakcore!</span>
+        </h4>
+        <p class="text">143 ways to lose urself by usedcvnt</p>
         <audio controls>
-            <source src="SOLARIS.mp3" type="audio/mpeg">
+            <source src="sound/143_ways_to_lose_urself.mp3" type="audio/mpeg">
         </audio>
-        <p>Нажмите на кнопку воспроизведения, чтобы начать слушать!</p>
     </main>
+
 </body>
 </html>
